@@ -1,0 +1,17 @@
+---
+spring:
+  profiles: dev
+properties:
+  sleep-milliseconds: 200
+
+---
+spring:
+  profiles: pre
+properties:
+  sleep-milliseconds: 200
+
+---
+spring:
+  profiles: prd
+properties:
+  sleep-milliseconds: 200
